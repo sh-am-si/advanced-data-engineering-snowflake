@@ -6,7 +6,7 @@ USE SCHEMA public;
 CREATE OR REPLACE SECRET course_repo.public.github_pat
   TYPE = password
   USERNAME = 'sh-am-si'
-  PASSWORD = '';
+  PASSWORD = '';  -- pat
 
 -- Create the API integration
 CREATE OR REPLACE API INTEGRATION
